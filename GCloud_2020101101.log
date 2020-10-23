@@ -1,0 +1,48 @@
+[2020-10-11 01:50:48 048] | Info | [GCloud] |0xeb424dc0| :0|| [[GCloudCore]]TX Initialize ends
+[2020-10-11 01:50:48 050] | Info | [GCloud] |0xeb424dc0| PluginManager.jni.cpp:102|Java_com_tencent_gcloud_plugin_PluginUtils_nativeStartup| Java_com_tencent_gcloud_plugin_PluginUtils_nativeStartup
+[2020-10-11 01:50:48 051] | Info | [GCloud] |0xeb424dc0| GCloudSDKPlugin.mm:29|OnStartup| GCloudSDKPlugin::OnStartup
+[2020-10-11 01:50:48 051] | Info | [GCloud] |0xeb424dc0| GCloudCoreInnerPlugin.mm:54|OnStartup| GCloudCoreInnerPlugin::OnStartup
+[2020-10-11 01:50:48 051] | Info | [GCloud] |0xeb424dc0| ServiceRegister.cpp:22|Register| ServiceRegister::Register serviceName:COREREPORT
+[2020-10-11 01:50:48 051] | Info | [GCloud] |0xeb424dc0| ServiceRegister.cpp:22|Register| ServiceRegister::Register serviceName:GTRACE
+[2020-10-11 01:50:48 051] | Info | [GCloud] |0xeb424dc0| ServiceRegister.cpp:22|Register| ServiceRegister::Register serviceName:REMOTECONFIG
+[2020-10-11 01:50:48 051] | Event | [GCloud] |0xeb424dc0| OperationQueueImp.cpp:112|OperationQueueImp| OperationQueueImp66(0xb8194b00)
+[2020-10-11 01:50:48 057] | Info | [GCloud] |0xeb424dc0| OperationQueueImp.cpp:230|createThreadList| pthread_create onThreadManageProc:0xaecfb230
+[2020-10-11 01:50:48 057] | Info | [GCloud] |0xeb424dc0| ServiceRegister.cpp:22|Register| ServiceRegister::Register serviceName:REPORT
+[2020-10-11 01:50:48 057] | Info | [GCloud] |0xeb424dc0| PluginManager.jni.cpp:108|Java_com_tencent_gcloud_plugin_PluginUtils_nativePostStartup| Java_com_tencent_gcloud_plugin_PluginUtils_nativePostStartup
+[2020-10-11 01:50:48 059] | Warning | [GCloud] |0xeb424dc0| PluginManager.mm:150|GetPluginByName| plugin:MSDK not exist:
+[2020-10-11 01:50:48 059] | Info | [GCloud] |0xeb424dc0| GCloudSDKPlugin.mm:33|OnPostStartup| GCloudSDKPlugin::OnPostStartup
+[2020-10-11 01:50:48 059] | Info | [GCloud] |0xeb424dc0| GCloudCoreInnerPlugin.mm:91|OnPostStartup| GCloudCoreInnerPlugin::OnPostStartup
+[2020-10-11 01:50:48 059] | Warning | [GCloud] |0xeb424dc0| PluginManager.mm:150|GetPluginByName| plugin:MSDK not exist:
+[2020-10-11 01:50:48 059] | Info | [GCloud] |0xeb424dc0| IniFileImp.cpp:81|CIniFileImpl| load config file cost 211 us
+[2020-10-11 01:50:48 059] | Info | [GCloud] |0xeb424dc0| EncryptedIniFileImp.cpp:128|Load| config file /storage/emulated/0/Android/data/com.pubg.krmobile/cache/GCloud.config is not exist
+[2020-10-11 01:50:48 159] | Info | [GCloud] |0xaf514230| GCloudCoreInnerPlugin.mm:167|onStartGTraceClient| GCloudCoreInnerPlugin::onStartGTraceClient begin
+[2020-10-11 01:50:48 166] | Info | [GCloud] |0xba1ff230| ConfigureImpl.cpp:183|Request| Request config, channel: , openID: ,  ruleID: 0
+[2020-10-11 01:50:48 167] | Info | [GCloud] |0xba1ff230| ConfigureImpl.cpp:193|Request| comParams: {"app_ver":"1.0.0","bid":"com.pubg.krmobile","cid":"","did":"413BF5434BD5AF8BB517282F0C54941","gid":"1950038955","mfrs":"HUAWEI","mtype":"MAR-LX1A","oid":"","os":"Android","os_ver":"10","sdk_list":{"GCloud":{"ver":"GCloud1.1.5.dc962e3a"},"GCloudCore":{"ver":"1.0.ind.1758"},"TDM":{"ver":"1.6.000.765"},"TSS":{"ver":"4.2.037.22389"}}}
+
+[2020-10-11 01:50:48 167] | Info | [GCloud] |0xba1ff230| UrlRequest.cpp:125|Initialize| UrlRequest::Initialize https://cloudctrl.gcloudsdk.com/cfgpush/getConfig?com_params=%7B%22app_ver%22%3A%221.0.0%22%2C%22bid%22%3A%22com.pubg.krmobile%22%2C%22cid%22%3A%22%22%2C%22did%22%3A%22413BF5434BD5AF8BB517282F0C54941%22%2C%22gid%22%3A%221950038955%22%2C%22mfrs%22%3A%22HUAWEI%22%2C%22mtype%22%3A%22MAR-LX1A%22%2C%22oid%22%3A%22%22%2C%22os%22%3A%22Android%22%2C%22os_ver%22%3A%2210%22%2C%22sdk_list%22%3A%7B%22GCloud%22%3A%7B%22ver%22%3A%22GCloud1.1.5.dc962e3a%22%7D%2C%22GCloudCore%22%3A%7B%22ver%22%3A%221.0.ind.1758%22%7D%2C%22TDM%22%3A%7B%22ver%22%3A%221.6.000.765%22%7D%2C%22TSS%22%3A%7B%22ver%22%3A%224.2.037.22389%22%7D%7D%7D%0A&biz_params=%7B%22rule_id%22%3A0%7D%0A&r=1602370248 10000
+[2020-10-11 01:50:48 167] | Info | [GCloud] |0xba1ff230| UrlRequest.cpp:188|SetDelegate| UrlRequest::SetDelegate
+[2020-10-11 01:50:48 167] | Info | [GCloud] |0xba1ff230| ConfigureImpl.cpp:208|Request| RemoteConfig maxRetryCount 3, retryCount 3
+[2020-10-11 01:50:48 167] | Info | [GCloud] |0xba1ff230| UrlRequest.cpp:264|Get| UrlRequest::Get
+[2020-10-11 01:50:48 169] | Info | [GCloud] |0xae973230| AThreadBase.cpp:91|onThreadProc| Thread: CThreadBase: OnThreadProc, 0xd738d280
+[2020-10-11 01:50:48 169] | Info | [GCloud] |0xaf514230| TraceIdManager.cpp:39|TraceIdManager| [GTrace] TraceConfig LowerLimit:5, UpperLimit:60, RequestCount:30, StoreFileName:/storage/emulated/0/Android/data/com.pubg.krmobile/cache/traceids.store
+[2020-10-11 01:50:48 175] | Info | [GCloud] |0xaf514230| TraceService.mm:90|initTargetList| [GTrace] TargetMode:1
+[2020-10-11 01:50:48 175] | Info | [GCloud] |0xaf514230| TraceService.mm:39|TraceService| [GTrace] GTraceClient IsEnabled:0
+[2020-10-11 01:50:48 175] | Event | [GCloud] |0xaf514230| GCloudCoreInnerPlugin.mm:194|onStartGTraceClient| [GTrace] onStartGTraceClient GTraceClient is disabled
+[2020-10-11 01:50:48 175] | Info | [GCloud] |0xaf514230| GCloudCoreInnerPlugin.mm:197|onStartGTraceClient| GCloudCoreInnerPlugin::onStartGTraceClient end
+[2020-10-11 01:50:48 175] | Info | [GCloud] |0xaf514230| Operation.cpp:87|~ObjectOperation| ObjectOperation::~ObjectOperation():0xbadfbe20
+[2020-10-11 01:50:48 219] | Info | [GCloud] |0xba1ff230| AThreadBase.cpp:218|Start| Thread: CThreadBase: Start:0xd738d280
+[2020-10-11 01:50:48 219] | Info | [GCloud] |0xba1ff230| AThreadBase.cpp:263|Resume| CThreadBase::Resume
+[2020-10-11 01:50:48 220] | Info | [GCloud] |0xae973230| AThreadBase.cpp:130|onThreadProc| Thread: CThreadBase: OnThreadProc before Running
+[2020-10-11 01:50:48 220] | Info | [GCloud] |0xba1ff230| Operation.cpp:87|~ObjectOperation| ObjectOperation::~ObjectOperation():0xbadfbe80
+[2020-10-11 01:50:48 222] | Info | [GCloud] |0xeb424dc0| :0|| [[GCloudCore]]AppPath:/data/user/0/com.pubg.krmobile/,CachePath:/storage/emulated/0/Android/data/com.pubg.krmobile/cache/,DataPath:/storage/emulated/0/Android/data/com.pubg.krmobile/files/
+[2020-10-11 01:50:48 222] | Info | [GCloud] |0xeb424dc0| :0|| [[GCloudCore]]CreateMainHandler success:Handler (android.os.Handler) {1c744b9}
+[2020-10-11 01:50:48 225] | Info | [GCloud] |0xeb424dc0| :0|| [URLRequest]URLRequest init
+[2020-10-11 01:50:48 225] | Info | [GCloud] |0xeb424dc0| ABaseJni.cpp:266|Java_com_tencent_abase_TX_nativeCreate| GCloud_TX_nativeCreate g_bInited:1
+[2020-10-11 01:50:48 225] | Info | [GCloud] |0xeb424dc0| :0|| [[GCloudCore]]TX Initialize ends
+[2020-10-11 01:50:48 227] | Info | [GCloud] |0xeb424dc0| GCloud.jni.cpp:124|Java_com_tencent_gcloud_GCloud_gcloudInit| gcloudInit :g_pJavaVm:0x0, env:0xeae387a0, g_JniObj:0x0, atv:0xffdeef10, context:0xffdeef14
+[2020-10-11 01:50:48 227] | Info | [GCloud] |0xeb424dc0| GCloud.jni.cpp:143|Java_com_tencent_gcloud_qr_QRCodeAPI_qrCodeInit| apolloQR JNI QRCodeAPI qrCodeInit
+[2020-10-11 01:50:49 383] | Info | [GCloud] |0xeb424dc0| Application.cpp:121|OnResume| CApplication::OnResume
+[2020-10-11 01:50:49 664] | Info | [GCloud] |0xeb424dc0| :0|| [ConnectionChangeReceiver]Network State change to TYPE_MOBILE
+[2020-10-11 01:50:49 664] | Event | [GCloud] |0xeb424dc0| ANetwork.cpp:159|OnNetworkStateChanged| OnNetworkStateChanged to:1
+[2020-10-11 01:50:49 664] | Info | [GCloud] |0xeb424dc0| :0|| [[GCloudCore]]callbackFromJNI nativePerform Main Thread:Thread[MainThread-UE4,5,main]Current Thread:Thread[MainThread-UE4,5,main]
+[2020-10-11 01:50:49 664] | Info | [GCloud] |0xeb424dc0| ConfigureImpl.cpp:168|OnNetworkStateChanged| ANetworkState 1, _state 2
